@@ -1,0 +1,26 @@
+<!--
+  Author: Evelyn Zepeda
+  Date: 3/31/24
+  Title: composer-list.component.html
+  Description: The composer-list page for the composer app.
+-->
+
+<div class="row">
+  <div class="col-sm-12">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Full name</th>
+          <th scope="col">Genre</th>
+        </tr>
+      </thead>
+
+      <tbody *ngFor="let composer of composers">
+        <tr>
+          <td scope="row">{{ composer.fullName }}</td>
+          <td>{{composer.genre}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
