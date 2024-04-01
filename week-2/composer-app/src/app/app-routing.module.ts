@@ -1,3 +1,10 @@
+//Author: Evelyn Zepeda
+//Date: 3/31/24
+//Title: app-routing.module.ts
+//Description: Sets up the routes for the composer app.
+
+
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';

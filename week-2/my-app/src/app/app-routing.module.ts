@@ -1,3 +1,8 @@
+//Author: Evelyn Zepeda
+//Date: 3/31/24
+//Title: app-routing.module.ts
+//Description: Sets up the routes for the home, contact and about page.
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';

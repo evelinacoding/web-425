@@ -13,5 +13,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  assignment = 'Assignment 1.5 - Components';
+
+  assignment = 'Exercise 2.3 - Data Binding';
 }
