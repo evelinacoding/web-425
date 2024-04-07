@@ -1,3 +1,10 @@
+/*
+  Author: Evelyn Zepeda
+  Date: 4/7/24
+  Title: composer-list.component.html
+  Description: The composer-list page for the composer app.
+*/
+
 import {IComposer} from './composer.interface'
 
 export class Composer {

@@ -1,3 +1,10 @@
+/*
+  Author: Evelyn Zepeda
+  Date: 4/7/24
+  Title: composer-list.component.ts
+  Description: The composer-list page for the composer app.
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IComposer } from '../composer.interface';
