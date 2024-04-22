@@ -1,16 +1,16 @@
 <!--
   Author: Evelyn Zepeda
   Date: 4/21/24
-  Title: Exercise 5.2
+  Title: Exercise 5.2 - Navigation and Layout
 -->
 
-<mat-toolbar>
+<mat-toolbar class="toolbar">
   <mat-toolbar-row>
     <div class="logo">
       <img src="./assets/In-N-Out books Logo.png" height="80">
     </div>
 
-    <div>
+    <div style="width: 80%;">
       <div fxLayout="row wrap" fxLayoutAlign="end start">
         <button mat-button routerLink="/book-list">Book List</button>
         <button mat-button routerLink="/contact">Contact Us</button>
@@ -18,8 +18,9 @@
       </div>
     </div>
   </mat-toolbar-row>
-
 </mat-toolbar>
+
+<!--A break line between the two-->
 <br />
 
 <div fxLayout="row wrap">
