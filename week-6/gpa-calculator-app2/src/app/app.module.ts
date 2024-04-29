@@ -1,3 +1,8 @@
+// Author: Evelyn Zepeda
+// Date: 4/28/24
+// Title: Assignment 6.4 Input Properties
+// Description: This page contains all the imported modules.
+
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -45,7 +50,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatInputModule,
     MatListModule,
     FormsModule,
-    MatSelectModule
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

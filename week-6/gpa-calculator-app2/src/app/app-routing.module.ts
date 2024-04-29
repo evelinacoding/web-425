@@ -1,3 +1,8 @@
+// Author: Evelyn Zepeda
+// Date: 4/28/24
+// Title: Assignment 6.4 Input Properties
+// Description: page for the routing paths
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseLayoutComponent } from './base-layout/base-layout.component';
